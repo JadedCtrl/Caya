@@ -1,18 +1,6 @@
-# ![Icon](data/icons/Caya.png) Caya
+# Caya
 ![GSoC 2021](https://img.shields.io/badge/GSoC-2021-green.svg)
 
-A multi-protocol chat program.
+This fork is now a hard-fork of Caya, under the name Cardie.
 
-![Screenshot](data/screenshots/update-1.png)
-
-## Building
-You can make Caya and its protocols with:
-
-`$ make`
-
-Caya itself requires the `expat_devel` package, the XMPP protocol requires
-`gloox_devel`, and the (provisional) IRC protocol requires
-`libircclient_devel`. You can also build either independent of the other:
-
-`$ make caya; make libs; make protocols; make -f protocols/xmpp/Makefile`
-
+See the new repository [here](https://github.com/jadedctrl/cardie).
